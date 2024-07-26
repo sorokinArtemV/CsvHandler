@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace CsvHandler.Application.Users.DTO;
 
-namespace CsvHandler.Core;
-
-public class User
+public class UserDto
 {
-    [Key]
     public Guid UserIdentifier { get; set; }
     public string? Username { get; set; }
     public int Age { get; set; }

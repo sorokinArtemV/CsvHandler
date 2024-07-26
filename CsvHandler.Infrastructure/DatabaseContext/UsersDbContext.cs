@@ -1,4 +1,4 @@
-﻿using CsvHandler.Core;
+﻿using CsvHandler.Core.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CsvHandler.Infrastructure.DatabaseContext;
