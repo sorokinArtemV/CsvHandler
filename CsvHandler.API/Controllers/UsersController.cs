@@ -23,8 +23,6 @@ public class UsersController(IUserUploadService usersService, IGetAllUsersServic
     [HttpGet]
     public async Task<ActionResult<List<UserDto>>> GetUsers([FromQuery] QueryParams query)
     {
-        // if (query == null) return await getAllUsersService.GetAllUsers();
-
         return await getAllUsersService.GetAllMatchingUsers(query);
     }
 }
