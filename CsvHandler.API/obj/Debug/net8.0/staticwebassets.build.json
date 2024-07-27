@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dQ2bxT9Eo21HiS2wMWtUEjNk4MfOzSLtT+wIa2puG/0=",
+  "Source": "CsvHandler.API",
+  "BasePath": "_content/CsvHandler.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
