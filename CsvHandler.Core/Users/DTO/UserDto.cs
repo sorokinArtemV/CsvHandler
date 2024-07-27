@@ -1,4 +1,4 @@
-﻿namespace CsvHandler.Application.Users.DTO;
+﻿namespace CsvHandler.Core.Users.DTO;
 
 public class UserDto
 {

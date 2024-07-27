@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CsvHandler.Core.Domain;
+namespace CsvHandler.Core.Domain.Entities;
 
 public class User
 {
-    [Key] public Guid UserIdentifier { get; set; }
+    [Key] 
+    public Guid UserIdentifier { get; set; }
     public string? Username { get; set; }
     public int Age { get; set; }
     public string? City { get; set; }

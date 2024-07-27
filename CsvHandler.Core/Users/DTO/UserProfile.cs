@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CsvHandler.Core.Domain.Entities;
 
-namespace CsvHandler.Application.Users.DTO;
+namespace CsvHandler.Core.Users.DTO;
 
 public class UserProfile : Profile
 {

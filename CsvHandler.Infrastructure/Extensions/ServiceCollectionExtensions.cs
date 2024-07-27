@@ -1,4 +1,6 @@
-﻿using CsvHandler.Infrastructure.DatabaseContext;
+﻿using CsvHandler.Core.RepositoryContracts;
+using CsvHandler.Infrastructure.DatabaseContext;
+using CsvHandler.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,5 +15,7 @@ public static class ServiceCollectionExtensions
         {
             opts.UseNpgsql(config.GetConnectionString("DefaultConnection"));
         });
+
+        builder.AddScoped<IUsersRepository, UsersRepository>();
     }
 }
